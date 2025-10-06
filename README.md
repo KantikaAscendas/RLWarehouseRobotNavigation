@@ -1,4 +1,4 @@
-[![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=KantikaAscendas/RLWarehouseRobotNavigation&file=README.mlx)
+
 # RL Designer Guide: Warehouse Robot Navigation
 # Step 1 : Prepare Environment Create Environment Class
 
@@ -22,14 +22,14 @@ ans = 1x2
 
 ```
 
-![image_0.png](./ReinforcementLearning_media/image_0.png)
+![image_0.png](./README_media/image_0.png)
 # Step 2: Import Environment เข้า RL Designer
 -  Open **Reinforcement Learning Designer** 
 -  Click **Import > Environment > Select Environment** 
 -  Select `env` →  Environment view show in panel  
 # Step 3: Create Agent
 
-![image_1.png](./ReinforcementLearning_media/image_1.png)
+![image_1.png](./README_media/image_1.png)
 
 1.   **New > Agent**
 2. Select:
@@ -53,10 +53,10 @@ ans = 1x2
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Stop Training Criteria: Average Reward > 15
 
 
-![image_2.png](./ReinforcementLearning_media/image_2.png)
+![image_2.png](./README_media/image_2.png)
 
 
-![image_3.png](./ReinforcementLearning_media/image_3.png)
+![image_3.png](./README_media/image_3.png)
 
 # Simulate Agent
 
@@ -183,4 +183,4 @@ title('Warehouse Robot Path on Grid 5x5');
 legend({'Obstacle','Start','Goal','Path'},'Location','bestoutside');
 ```
 
-![figure_0.png](./ReinforcementLearning_media/figure_0.png)
+![figure_0.png](./README_media/figure_0.png)
